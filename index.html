@@ -1,23 +1,55 @@
 <!DOCTYPE html>
-<html lang="pt - br">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
     <link rel="stylesheet" href="css/global.css">
 </head>
 <body>
     <header class="site-header">
-        <h1 class="site-title">Meu Site</h1>
-        <nav class="main_nav">
+        <h1 class="site-title">Meu site</h1>
+        <nav class="main-nav"> 
             <ul class="nav-list">
-                <li class="nav-item"><a href = "index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
                 <li class="nav-item"><a href="./pages/sobre.html" class="nav-link">Sobre</a></li>
                 <li class="nav-item"><a href="./pages/contato.html" class="nav-link">Contato</a></li>
             </ul>
         </nav>
-
     </header>
-    
+
+    <main class="main-content">
+        <article class="article">
+            <header class="articl-header">
+                <h2 class="article-title">Bem Vindo ao Meu Site</h2>
+                <p class="section-text">Texto Aleatorio na aula de marcação Web!</p>
+            </header>
+        <section class="article-content">
+        <h3 class="section-title">Intrdução</h3>
+        <p class="section-text">Este conteudo é introdutorio do artigo</p>
+        <figure class="image-figure">
+        <img src="./img/totoro.png" alt="totoro" class="article-image">
+        <figcaption class="image-caption">Totoro</figcaption>
+        </figure>
+        <audio controls class="audio-player">
+            <source src="./media/audio.mp3" type="audio/mp3">
+            Seu navegador não suporta a tag audio. 
+        </audio>
+        <code>audio</code>.
+    </section>
+    <footer class="article-footer">
+        <p class="section-textTexto de rodapé do artigo"></p>
+    </article>
+    <aside class="sidebar">
+        <h2 class="sidebar-title">Informaçoes adicionais</h2>
+        <p class="section-text">Texto aleatorio na aula de marcação Web</p>
+    </aside>
+    </main>
+    <footer class="site-footer">
+        <address class="contact-info">
+            <p class="author-email">Email: <a href="mailto:gabriela.f.babosa@aluno.senai.br" class="email-link">gabriela.f.barbosa@aluno.senai</a></p>
+        </address>
+        <p class="copy-info">&copy; 2024 - Todos os direitos reservados</p>
+    </footer>
 </body>
 </html>
